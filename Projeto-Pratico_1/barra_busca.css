@@ -1,0 +1,96 @@
+.box-busca{ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+.lupa{background: none; padding: auto;}
+
+
+.search-box-input::placeholder {
+    
+    color:#d21617;
+    opacity: 0.8;
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+
+}
+
+.search-box form {
+    
+    display: flex;
+    border-radius: 50px;
+    padding: 0;
+    background-color: #0a0a0a;
+    height: 40px; 
+    cursor: pointer;
+
+}
+
+.search-box:hover .search-box-input {
+    
+    padding-left: 20px;
+    padding-right: 10px;
+    width: 100px;
+}
+/* Chrome, Opera ySafari */
+.search-box-input::-webkit-input-placeholder { color: #ffffff; }
+/* Firefox 19+ */
+.search-box-input::-moz-placeholder { color: #ffffff; }
+/* IE 10+ y Edge */
+.search-box-input:-ms-input-placeholder { color: #ffffff; }
+
+.search-box-input {
+
+    outline: 0;
+    font-size: 16px;
+    display: flex;
+    color:#d21617;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    width: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    transition: .45s;
+    background-position: cover;
+
+}
+
+.search-box-button {
+
+   display: flex;
+   border-radius: 50%;
+   padding: 12px;
+   width: 40px;
+   height: 40px;
+   background-color:#d21617;
+   border: none;
+   cursor: pointer;
+   transition: .3s;
+
+}
+
+.search-box-button:active  {
+
+    transform: scale(.85);
+
+}
+
+.search-box-icone {
+
+    margin: auto;
+    color: #fff;
+
+}
+
+
+@media screen and (min-width: 400px){
+    
+    .search-box:hover .search-box-input {
+        width: 160px;
+    }
+
+}

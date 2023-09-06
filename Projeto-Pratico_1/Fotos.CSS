@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+*{border: 0; margin: 0; padding: 0; list-style: none; text-decoration: none; background-color: black;}
+
+.topo{display: flex;justify-content: space-between; position:absolute; font-size: 20px; align-items: end; padding-left: 20px; padding-top: 10px; font-family: 'Kdam Thmor Pro', sans-serif; color: #a6a6a6    ;}
+.image{animation: moveToRight 2s ease-in-out;transition: .8s;}
+.text{font-style: italic;}
+
+.filme-cards-container{width: 100%; display: flex; justify-content: center; margin-top: 20px; padding-top: 100px;}
+.cards-content{width: 90%; display: grid; grid-template-columns: repeat(3, 1fr); row-gap: 20px; column-gap: 40px;}
+.card{width: 100%; height: 500px; background-size: cover; background-position: 50% 50%; border-radius: 5px; cursor: pointer; transition: 1s; display: flex; flex-direction: column; justify-content: flex-end; padding: 0 0 20px 10px; color: #fff; font-size: 17px; font-family: 'Kdam Thmor Pro', sans-serif;}
+.card:hover{transform: scale(1.02);}
+
+.banner-1{background-image: url(https://br.web.img2.acsta.net/pictures/15/10/14/14/58/220036.jpg);}
+.banner-2{background-image: url(https://images2.alphacoders.com/692/692099.jpg)}
+.banner-3{background-image: url(https://images2.alphacoders.com/943/943496.jpg);}
+.banner-4{background-image: url(https://mundonegro.inf.br/wp-content/uploads/2022/12/capa-Mundo-Negro-2022-12-20T180129.660.jpg);}
+.banner-5{background-image: url(https://i.pinimg.com/550x/6e/6f/67/6e6f673851ad18a545bbeb70e876aa43.jpg);}
+.banner-6{background-image: url(https://cinecriticas.com.br/wp-content/uploads/2023/03/Cine1.jpg);}
+.banner-7{background-image: url(https://static0.srcdn.com/wordpress/wp-content/uploads/2022/12/creed-iii-poster.jpeg);}
+
+
+
+
+
+
+
+@keyframes moveToRight {0%{transform: translateX(0px);} 100%{transform: translateX(62px);}}
+
+
+#logo{width: 90px; height: 35px; padding-top: 12px;}
+#logo:hover{transform: scale(1.02); transition: 0.5s;}
+footer{position: fixed; bottom: 0; width: 100%; height: 50px; display: flex; justify-content: space-between; align-items: center; background-color: black;}
+ul{display: flex;flex-direction: column (3, 2fr); width: 80%; justify-content: space-around;  background-color: black;}
+li {width: 80%; display: grid; justify-content:space-between; width: auto; padding: 0;padding-top: 1px;  list-style: none; color: aliceblue; cursor: pointer; font-size: 12px; transition: .5s;  font-family: 'Kdam Thmor Pro', sans-serif;  background-color: black;}
+li:hover{color:#d21617; }
+.wpp{position: relative; right: 30px; top: 25px;}
+.mail{position: relative; right: 32px; top: 25px;}
+.face{position: relative; right: 30px; top: 22px;}
+.insta{position: relative; right: 30px; top: 22px;}
+P{font-size: 10px; color: #a6a6a6; font-family:'Kdam Thmor Pro', sans-serif; font-style:oblique; padding-top: 30px; padding-left: 101px}
